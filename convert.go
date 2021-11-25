@@ -54,7 +54,7 @@ func ToCamelCase(str string) string {
 		str = str[size:]
 
 		if isConnector(r0) && isConnector(r1) {
-			buf.WriteRune(r1)
+			//buf.WriteRune(r1)
 			continue
 		}
 
